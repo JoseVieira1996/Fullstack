@@ -1,0 +1,27 @@
+<table>
+    <tr>
+        <td>Action</td>
+        <td>Nome</td>
+        <td>Cor</td>
+        <td>Imagem</td>
+    </tr>
+
+
+    {{#data}}
+    <tr>
+        <td>
+            <a href="/update/{{id}}"><img src="/img/editar.jpg" alt="" class="editar"></a>
+            <a href="/deletar/{{id}}"><img src="/img/apagar.png" alt="" class="apagar"><a>
+        </td>
+        <td>{{nome}}</td>
+        <td>{{cor}}</td>
+        <td>{{imagem}}</td>
+    </tr>
+    {{/data}}
+
+</table> <br>
+
+<a href="inserir">Inserir novos dados</a><br><br></br>
+<a href="index">Voltar a pagina principal</a><br><br></br>
+
+

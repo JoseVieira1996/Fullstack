@@ -1,0 +1,19 @@
+img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.img{
+    width: 6px;
+    height: 6px;
+}
+
+#img{
+    width: 6px;
+    height: 6px;
+
+}
+
+table{width: 100%;}
+table td{width: 25%;}
